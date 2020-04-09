@@ -1,0 +1,11 @@
+ 
+This is a modified version of a the core repository scraper from earlier.
+
+In this modified version, the files abstractScraper.py and core.py should be in the same folder.  To run this, you need to run 'python3 core.py' in your terminal.
+
+It will ask you for an input search term.  After you input the search term, it will grab many papers from the CORE repository matching that search.  It will create a document based on your search results including title of the paper, abstract, authors, and other details.  More details can be added later easily.
+
+If an abstract is not provided in the data from CORE, the program will download the pdf and attempt to scrape the abstract from the pdf to put it in the document.  Sometimes this will not work because of broken links in CORE or because of issues with the scraper.
+
+
+If you would like to get an singular abstract from a scraper, run the program AbstractScraperSingle.py in the same folder with the .pdf.  It will ask you to input the name of the file.  For example, if the pdf is titled article.pdf, you would type in article.pdf.  When you run it, it will display the abstract in the terminal and also create a text file entitled <article_name>abstract.txt containing the abstract.  If you come across any papers it does not work for, please send me the paper so I can better tune the program. 
