@@ -13,5 +13,6 @@ It will ask you for an input search term.  After you input the search term, it w
 
 If an abstract is not provided in the data from CORE, the program will download the pdf and attempt to scrape the abstract from the pdf to put it in the document.  Sometimes this will not work because of broken links in CORE or because of issues with the scraper.
 
+An example of the output can be found in "output.docx" file in this directory. The output is created by using keyword "supply chain risk management".
 
 If you would like to get an singular abstract from a scraper, run the program AbstractScraperSingle.py in the same folder with the .pdf.  It will ask you to input the name of the file.  For example, if the pdf is titled article.pdf, you would type in article.pdf.  When you run it, it will display the abstract in the terminal and also create a text file entitled <article_name>abstract.txt containing the abstract.  If you come across any papers it does not work for, please send me the paper so I can better tune the program. 
