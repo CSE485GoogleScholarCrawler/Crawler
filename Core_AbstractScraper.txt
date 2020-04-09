@@ -1,6 +1,12 @@
  
 This is a modified version of a the core repository scraper from earlier.
 
+If you have not done so, install the following packages in your terminal.
+
+$ pip3 install python-docx
+$ pip3 install requests
+$ pip3 install asyncio
+
 In this modified version, the files abstractScraper.py and core.py should be in the same folder.  To run this, you need to run 'python3 core.py' in your terminal.
 
 It will ask you for an input search term.  After you input the search term, it will grab many papers from the CORE repository matching that search.  It will create a document based on your search results including title of the paper, abstract, authors, and other details.  More details can be added later easily.
